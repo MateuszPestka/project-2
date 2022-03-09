@@ -33,6 +33,7 @@ h1 {
     width: 50rem;
     margin: 0 auto;
     height: 70vh;
+    border-radius: 25px;
 }
 
 .user-controls {
@@ -43,6 +44,8 @@ h1 {
 .score-count {
     height: 10vh;
     background-color: yellow;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .button {
