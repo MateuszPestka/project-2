@@ -1,0 +1,10 @@
+/*Change font size of HTMl for easy use of rems*/
+html {
+    font-size: 10px;
+}
+
+/*Game heading style*/
+.game-title {
+    text-align: center;
+    font-size: 5rem;
+}
