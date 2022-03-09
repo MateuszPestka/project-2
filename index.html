@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1 class="game-title">
+    <header>
+        <h1 class="game-title">
         Rock Paper Scissors
-    </h1>
+        </h1>
+    </header>
     <div class="game-block">
         <div class="user-controls">
             <button id="rock" class="button button-big button-color" >
-
+                <i class="fa-regular fa-hand-back-fist"></i>
             </button>
             <button id="paper" class="button button-big button-color">
-
+                <i class="fa-regular fa-hand"></i>
             </button>
             <button id="scissors" class="button button-big button-color">
-
+                <i class="fa-regular fa-hand-scissors"></i>
             </button>
         </div>
         <div class="results-block">
 
         </div>
         <div class="score-count">
-            <p class="correct">
-                Your score = 
+            <p class="scores">
+                Your score thy sir = <span class="correct">0</span>
             </p>
-            <p class="incorrect">
-                Computer = 
+            <p class="scores">
+                Measly Robot = <span class="incorrect">0</span>
             </p>
         </div>
     </div>
@@ -46,6 +54,7 @@
             <li>Youtube</li>
         </ul>
     </footer>
+    <script src="https://kit.fontawesome.com/53cf9afe11.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

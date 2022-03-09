@@ -1,10 +1,27 @@
-/*Change font size of HTMl for easy use of rems*/
-html {
+/*Ensures no gaps on side of screen*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/*Change font size of body for easy use of rems*/
+body {
     font-size: 10px;
+    font-family: font-family: 'Bodoni Moda', serif;
+    background-color: #fff;
 }
 
 /*Game heading style*/
 .game-title {
+    background-image: url("../images/header-image.jpg");
+    padding-left: 0;
+    float: none;
+    width: 100%;
+    background-size: cover;
+}
+
+h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
 }
