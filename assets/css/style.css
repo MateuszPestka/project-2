@@ -36,10 +36,8 @@ h1 {
 }
 
 .user-controls {
-    height: 36rem;
-    display: inline;
-    width: 30%;
-    margin-left: 35%;
+    width: 85%;
+    margin: 20px auto;
 }
 
 .score-count {
@@ -48,14 +46,18 @@ h1 {
 }
 
 .button {
-    font-size: 3rem;
     width: 5rem;
     height: 5rem;
-    border-radius: 2px;
+    letter-spacing: 1.2px;
 }
 
 .button-big {
+    padding-top: 10px;
+    background-color: #fff;
+    width: 130px;
+    height: 130px;
+    font-size: 5rem;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 106px 45px;
 }
 
