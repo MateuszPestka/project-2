@@ -76,4 +76,27 @@ h1 {
     margin-top: 10px;
 }
 
+/*footer*/
+.footer {
+    width: 100%;
+}
 
+.footer-text {
+    float: left;
+    font-size: 180%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.social {
+    font-size: 150%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.social li {
+    display: block;
+    list-style-type: none;
+    padding-right: 1rem;
+    float: right;
+}
