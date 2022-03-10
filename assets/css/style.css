@@ -64,3 +64,16 @@ h1 {
     margin: 106px 45px;
 }
 
+.score-count {
+    width: 100%;
+    text-align: center;
+}
+
+.scores {
+    font-size: 200%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
