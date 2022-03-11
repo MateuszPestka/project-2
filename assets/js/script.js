@@ -3,6 +3,7 @@ let computerScore = 0;
 let userWin = document.getElementById("user-win");
 let computerWin = document.getElementById("computer-win");
 let scoreCount = document.getElementsByClassName("score-count");
+let text = document.getElementById("text");
 let rock = document.getElementById("rock");
 let paper = document.getElementById("paper");
 let scissors = document.getElementById("scissors");
@@ -47,6 +48,16 @@ if (userChoice === "scissors") {
 }
 game();
 
+function change() {
+    if (win()) {
+        text.innerHTML = `Congratulations You Won!`
+    } else if (lose()) {
+        text.innerHTML = `You Lose. Try Again!`
+    } else {
+        text.innerHTML = `It's a draw try again`
+    }
+}
+
 function win() {
     userScore++;
     userWin.innerHTML = userScore;
@@ -58,7 +69,7 @@ function lose() {
 }
 
 function draw() {
-    alert("It's a draw")
+    
 }
 
 function eventListener() {
