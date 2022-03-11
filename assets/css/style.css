@@ -64,6 +64,12 @@ h1 {
     margin: 106px 45px;
 }
 
+.start-text {
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+}
+
 .score-count {
     width: 100%;
     text-align: center;
