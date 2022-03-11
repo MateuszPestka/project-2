@@ -8,7 +8,9 @@ let paper = document.getElementById("paper");
 let scissors = document.getElementById("scissors");
 
 function computerMove() {
-    let choice = [rock, paper, scissors]
+    let choice = ["rock", "paper", "scissors"]
+    let randomNumber = Math.floor(Math.random() * 3)
+    return choice = randomNumber
 }
 
 function game() {
