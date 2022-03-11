@@ -15,22 +15,29 @@ function computerMove() {
 
 function game(userChoice) {
     let computerChoice = computerMove();
-    console.log(computerChoice);
-    console.log(userChoice);
+if (userChoice === "rock") {
+    if (computerChoice === "scissors") {
+        win();
+    } else if (computerChoice === "paper") {
+        lose();
+    } else {
+        draw();
+    }
+}
 }
 
 game();
 
 function win() {
-
+    console.log("You won")
 }
 
 function lose() {
-
+    console.log("you lose")
 }
 
 function draw() {
-
+    console.log("its a draw")
 }
 
 function eventListener() {
