@@ -16,60 +16,56 @@ function computerMove() {
 
 function game(userChoice) {
     let computerChoice = computerMove();
-if (userChoice === "rock") {
-    if (computerChoice === "scissors") {
-        win();
-    } else if (computerChoice === "paper") {
-        lose();
-    } else {
-        draw();
-    }
-}
-
-if (userChoice === "paper") {
-        if (computerChoice === "rock") {
-            win();
-        } else if (computerChoice === "scissors") {
-            lose();
+    if (userChoice === "rock") {
+        if (computerChoice === "scissors") {
+            win(computerChoice);
+        } else if (computerChoice === "paper") {
+            lose(computerChoice);
         } else {
-            draw();
-        }    
-}
+            draw(computerChoice);
+        }
+    }
 
-if (userChoice === "scissors") {
-    if (computerChoice === "paper") {
-        win();
-    } else if (computerChoice === "rock") {
-        lose();
-    } else {
-        draw();
-    }    
-}
+    if (userChoice === "paper") {
+            if (computerChoice === "rock") {
+                win(computerChoice);
+            } else if (computerChoice === "scissors") {
+                lose(computerChoice);
+            } else {
+                draw(computerChoice);
+            }    
+    }
+
+    if (userChoice === "scissors") {
+        if (computerChoice === "paper") {
+            win(computerChoice);
+        } else if (computerChoice === "rock") {
+            lose(computerChoice);
+        } else {
+            draw(computerChoice);
+        }    
+    }
 }
 game();
 
-function change() {
-    if (win()) {
-        text.innerHTML = `Congratulations You Won!`
-    } else if (lose()) {
-        text.innerHTML = `You Lose. Try Again!`
-    } else {
-        text.innerHTML = `It's a draw try again`
-    }
-}
-
-function win() {
+function win(computerChoice) {
     userScore++;
     userWin.innerHTML = userScore;
-}
-
-function lose() {
-    computerScore++;
     computerWin.innerHTML = computerScore;
+    text.innerHTML = `You Win!! Computer chose ${computerChoice}.`;
 }
 
-function draw() {
-    
+function lose(computerChoice) {
+    computerScore++;
+    userWin.innerHTML = userScore;
+    computerWin.innerHTML = computerScore;
+    text.innerHTML = `You Lost. Computer chose ${computerChoice}.`;
+}
+
+function draw(computerChoice) {
+    userWin.innerHTML = userScore;
+    computerWin.innerHTML = computerScore;
+    text.innerHTML = `It's a Draw. Computer chose ${computerChoice}.`;
 }
 
 function eventListener() {
