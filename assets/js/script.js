@@ -1,7 +1,7 @@
 let userScore = 0;
 let computerScore = 0;
-let userWin = document.getElementsByClassName("user-win");
-let computerWin = document.getElementsByClassName("computer-win");
+let userWin = document.getElementById("user-win");
+let computerWin = document.getElementById("computer-win");
 let scoreCount = document.getElementsByClassName("score-count");
 let rock = document.getElementById("rock");
 let paper = document.getElementById("paper");
@@ -48,11 +48,12 @@ if (userChoice === "scissors") {
 game();
 
 function win() {
-    console.log("You won")
+    userScore++;
+    userWin.innerHTML = userScore;
 }
 
 function lose() {
-    console.log("you lose")
+    console.log("its a draw")
 }
 
 function draw() {
