@@ -28,5 +28,13 @@ function draw() {
 }
 
 function eventListener() {
-    
+    rock.addEventListener('click', function() {
+        game();
+    })
+    paper.addEventListener('click', function() {
+        game();
+    })
+    scissors.addEventListener('click', function() {
+        game();
+    })
 }
