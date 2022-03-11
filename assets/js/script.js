@@ -24,8 +24,27 @@ if (userChoice === "rock") {
         draw();
     }
 }
+
+if (userChoice === "paper") {
+        if (computerChoice === "rock") {
+            win();
+        } else if (computerChoice === "scissors") {
+            lose();
+        } else {
+            draw();
+        }    
 }
 
+if (userChoice === "scissors") {
+    if (computerChoice === "paper") {
+        win();
+    } else if (computerChoice === "rock") {
+        lose();
+    } else {
+        draw();
+    }    
+}
+}
 game();
 
 function win() {
