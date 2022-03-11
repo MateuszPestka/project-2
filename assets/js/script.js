@@ -53,11 +53,12 @@ function win() {
 }
 
 function lose() {
-    console.log("its a draw")
+    computerScore++;
+    computerWin.innerHTML = computerScore;
 }
 
 function draw() {
-    console.log("its a draw")
+    alert("It's a draw")
 }
 
 function eventListener() {
