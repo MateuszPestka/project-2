@@ -10,12 +10,15 @@ let scissors = document.getElementById("scissors");
 function computerMove() {
     let choice = ["rock", "paper", "scissors"]
     let randomNumber = Math.floor(Math.random() * 3)
-    return choice = randomNumber
+    return choice = [randomNumber];
 }
 
-function game() {
-
+function game(userChoice) {
+    let computerChoice = computerMove();
+    console.log(computerChoice);
 }
+
+game();
 
 function win() {
 
@@ -31,12 +34,14 @@ function draw() {
 
 function eventListener() {
     rock.addEventListener('click', function() {
-        game();
+        game("rock");
     })
     paper.addEventListener('click', function() {
-        game();
+        game("paper");
     })
     scissors.addEventListener('click', function() {
-        game();
+        game("scissors");
     })
 }
+
+eventListener();
