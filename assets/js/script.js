@@ -8,7 +8,7 @@ let paper = document.getElementById("paper");
 let scissors = document.getElementById("scissors");
 
 function computerMove() {
-
+    let choice = [rock, paper, scissors]
 }
 
 function game() {
