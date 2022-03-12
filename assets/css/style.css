@@ -150,7 +150,15 @@ h1 {
     }
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 770px) {
+    .game-block {
+        height: 50vh;
+    }
+    
+    .user-controls {
+        height: 30vh;
+    }
+    
     .button-big {
         margin: 106px 5%;
         width: 110px;
@@ -169,15 +177,67 @@ h1 {
 }
 
 @media screen and (max-width: 620px) {
+    .button {
+        font-size: 50px;
+    }
+    
+    .button-big {
+        margin: 106px 4%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .scores {
+        font-size: 200%;
+    }
+
+    .text-area {
+        font-size: 200%;
+    }
+
     .social {
         margin-right: 20%;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .button-big {
+        margin: 106px 3%;
+        width: 80px;
+        height: 80px;
+    }
+    
     .social {
-        margin-right: 1%;
+        margin-right: 2%;
         padding-right: .5%;
         font-size: 250%
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .game-block {
+        height: 50vh;
+    }
+    
+    .user-controls {
+        height: 30vh;
+    }
+    
+    .button {
+        font-size: 40px;
+    }
+    
+    .button-big {
+        margin: 106px 3%;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .text-area {
+        font-size: 150%;
+    }
+    
+    .scores {
+        font-size: 150%;
     }
 }
