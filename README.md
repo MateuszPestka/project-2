@@ -5,7 +5,7 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
 
 ![Website opening page](assets/images/website.png)
 
-## **Feutures of the Page:**
+## **Features of the Page:**
 
 - **Header**
   - The header has a simple design displaying the name of the game.
@@ -18,19 +18,19 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
     - The buttons are designed to stand out from the rest of the game area as they are the main focus for the user. 
     - The buttons have a hover animation and the cursor changes to a pointer to further encourage clicking the button.
     - The hover transition increases the scale which adds to the focus on the button being pressed.
-    - When a button is pressed an Event listnener in JS begins the game function with a value of pressed button.
+    - When a button is pressed an Event listener in JS begins the game function with a value of pressed button.
 
   - **Instructions/Results**
-    - The results text start of an instruction text which tells the player to choose between the three buttons.
+    - The results text start of with an instruction text which tells the player to choose between the three buttons.
     - When the player chooses a button the results are returned to the results text giving the user feedback on whether they won, lost or if it was a draw.
-    -  The results text also displays the computers choice so the player does not have a sense of being cheated, or that the game is unfair.
+    -  The results text also displays the computer's choice so the player does not have a sense of being cheated, or that the game is unfair.
 
   - **Score Count**
     - The score count tracts the count of every win and loss a player  gets. It keeps a record of it so the player can feel like they have won or lost against the computer.
 
 - **Footer**
   - The footer has social media links and text to follow the social media for updates in regards to the game.
-  - This allows the user to suggest updates to the game and also see any changes that occur and any new feautures implemented.
+  - This allows the user to suggest updates to the game and also see any changes that occur and any new features implemented.
 
 ## **Website On Different Screens
 
@@ -75,9 +75,9 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
 
 - **Results Text Testing**
   - The result text works without any issues.
-  - The text starts of with prompting the player to chose on of the buttons.
-  - The text then changes to the win, lose or it's a draw texts.
-  - The text displays the computers choice without a problem on all three results.
+  - The text starts of with prompting the player to cho0se on of the buttons.
+  - The text then changes to the win, lose or it's a draw text.
+  - The text displays the computer's choice without a problem on all three results.
 
 ## **Lighthouse Testing**
 
@@ -128,4 +128,4 @@ The Mobile test also didn't reach 100 on everything but the performance was the 
 
 ## **Website Used**
 
-- Coolers used to find new colours for websire [coolers](https://coolors.co/)
+- Coolers used to find new colours for website [coolers](https://coolors.co/)
