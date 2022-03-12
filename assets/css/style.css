@@ -9,7 +9,7 @@
 body {
     font-size: 10px;
     font-family: 'Bodoni Moda', serif;
-    background-color: #E5F9E0;
+    background-color: #032B43;
 }
 
 /*Game heading style*/
@@ -17,19 +17,19 @@ body {
     float: none;
     width: 100%;
     background-size: cover;
-    background-color: #E5F9E0;
+    background-color: #032B43;
 }
 
 h1 {
     text-align: center;
     font-size: 4rem;
-    color: #090909;
+    color: #fff;
     padding: .5rem 0 1rem 0;
 }
 
 /*Game area*/
 .game-block {
-    background-color: #090909;
+    background-color: rgba(45, 6, 5, .6);
     width: 50rem;
     margin: 0 auto;
     height: 70vh;
@@ -44,9 +44,11 @@ h1 {
 
 .score-count {
     height: 10vh;
-    background-color: yellow;
+    background-color: rgba(45, 6, 5, 1);
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
+    width: 100%;
+    text-align: center;
 }
 
 .button {
@@ -62,11 +64,12 @@ h1 {
 
 .button-big {
     padding-top: 10px;
-    background-color: #fff;
+    background-color: #032B43;
+    color: #fff;
     width: 130px;
     height: 130px;
     font-size: 5rem;
-    border: 4px solid blue;
+    border: 4px solid #fff;
     border-radius: 50%;
     margin: 106px 45px;
     transition: .2s;
@@ -78,12 +81,6 @@ h1 {
     font-size: 250%;
     height: 10vh;
     text-transform: capitalize;
-}
-
-.score-count {
-    width: 100%;
-    text-align: center;
-    background-color: #090909;
 }
 
 .scores {
@@ -104,7 +101,7 @@ h1 {
     font-size: 200%;
     margin-left: 20%;
     margin-bottom: 2%;
-    color: #090909;
+    color: #fff;
 }
 
 .social {
@@ -121,5 +118,5 @@ h1 {
 }
 
 .social i {
-    color: #090909;
+    color: #fff;
 }
