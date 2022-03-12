@@ -36,6 +36,8 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
 
   - The game is accessible on all devices with only minor changes to the layout.
 
+![Layout on  different size screens beside each other](assets/images/different-devices.png)
+
 - **Computer Screens above 1000pc**
 
   - The layout for computer screens is the standard layout for the webpage. 
@@ -124,3 +126,6 @@ The Mobile test also didn't reach 100 on everything but the performance was the 
   - In the source I selected the branch to Main Branch.
   - Once selected I clicked save and the page refreshes deploying the page giving me a detailed display ribbon to indicate the finishing of deployment.
 
+## **Website Used**
+
+- Coolers used to find new colours for websire [coolers](https://coolors.co/)
