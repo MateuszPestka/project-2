@@ -93,4 +93,25 @@ The Mobile test also didn't reach 100 on everything but the performance was the 
 
 ![Lighthouse mobile test](assets/images/mobile.png)
 
+## **Validator Testing**
+
+- **HTML**
+  - No errors or warnings reported when passing through [W3C Validitor](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmateuszpestka.github.io%2Fproject-2%2F)
+
+- **CSS**
+
+  - No errors or warnings reported when passing through [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmateuszpestka.github.io%2Fproject-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  
+- **JavaScript**
+
+  - No errors or warnings reported when passing through JShint.
+
+    - Link to website [JShint](https://jshint.com/) 
+
+  -Results given by JShint
+  -![JShint results](assets/images/jshintresult.png)
+
+## **Unfixed Bugs**
+
+- No bugs currently detected
+
