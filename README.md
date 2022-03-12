@@ -31,4 +31,20 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
 - **Footer**
   - The footer has social media links and text to follow the social media for updates in regards to the game.
   - This allows the user to suggest updates to the game and also see any changes that occur and any new feautures implemented.
+
+  ## **Testing**
+ 
+ ### **Website Functionality Testing**
+
+- **Links Testing**
+
+  - I have tested the four links on my page to social media platforms.
+  - They all open as intended in a separate browser page and lead to the correct website.
+
+- **Button Testing**
+
+  - There are three buttons in total on my page: The Rock, Paper and Scissors buttons.
+  - All buttons work as intended.
   
+    - The hover transition increases the scale of the buttons without issue.
+    - Each button runs the correct function and provides the correct feedback, an example of this is when the player chooses rock and the computer chooses paper, the computer will win.
