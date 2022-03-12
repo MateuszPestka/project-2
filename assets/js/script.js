@@ -7,11 +7,21 @@ let rock = document.getElementById("rock");
 let paper = document.getElementById("paper");
 let scissors = document.getElementById("scissors");
 
+/**
+ * Chooses a random number between 0 and 3 that collerates to 
+ * rock, paper or scissors.
+ */
+
 function computerMove() {
     let input = ["rock", "paper", "scissors"];
     let randomNumber = Math.floor(Math.random() * 3);
     return input[randomNumber];
 }
+
+/**
+ * Main game function that decides who wins the game and which function to
+ * run there after. 
+ */
 
 function game(userinput) {
     let computerinput = computerMove();
@@ -47,6 +57,11 @@ function game(userinput) {
 }
 game();
 
+/**
+ * Functions run after user has completed a move. Each add score and display
+ * a feedback message.
+ */
+
 function win(computerinput) {
     userScore++;
     userWin.innerHTML = userScore;
@@ -66,6 +81,11 @@ function draw(computerinput) {
     computerWin.innerHTML = computerScore;
     text.innerHTML = `It's a Draw. Computer chose ${computerinput}.`;
 }
+
+/**
+ * Event listeners that wait for the click to be activated. This runs the 
+ * game after a user has made a choice.
+ */
 
 function eventListener() {
     rock.addEventListener('click', function() {
