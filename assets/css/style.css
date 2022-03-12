@@ -122,7 +122,16 @@ h1 {
 }
 
 /*Media quesries*/
+/*For screens sizes 1000px and below*/
 @media screen and (max-width: 1000px) {
+    .game-block {
+        height: 50vh;
+    }
+    
+    .user-controls {
+        height: 30vh;
+    }
+    
     .footer-text {
         text-align: center;
         width: 100%;
@@ -135,9 +144,15 @@ h1 {
     }
 }
 
+/*For screens sizes 900px and below*/
 @media screen and (max-width: 900px) {
     .game-block {
+        height: 50vh;
         width: 90%;
+    }
+    
+    .user-controls {
+        height: 30vh;
     }
 
     .button-big {
@@ -150,6 +165,7 @@ h1 {
     }
 }
 
+/*For screens sizes 770px and below*/
 @media screen and (max-width: 770px) {
     .game-block {
         height: 50vh;
@@ -170,12 +186,14 @@ h1 {
     }
 }
 
+/*For screens sizes 660px and below*/
 @media screen and (max-width: 660px) {
     .button-big {
         margin: 106px 4%;
     }
 }
 
+/*For screens sizes 620px and below*/
 @media screen and (max-width: 620px) {
     .button {
         font-size: 50px;
@@ -200,6 +218,7 @@ h1 {
     }
 }
 
+/*For screens sizes 500px and below*/
 @media screen and (max-width: 500px) {
     .button-big {
         margin: 106px 3%;
@@ -214,6 +233,7 @@ h1 {
     }
 }
 
+/*For screens sizes 430px and below*/
 @media screen and (max-width: 430px) {
     .game-block {
         height: 50vh;
