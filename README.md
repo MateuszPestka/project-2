@@ -77,4 +77,20 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
   - The text then changes to the win, lose or it's a draw texts.
   - The text displays the computers choice without a problem on all three results.
 
+## **Lighthouse Testing**
+
+My Lighthouse tests came out extremely positive on both the mobile and desktop tests.
+
+### **Desktop Test**
+
+The Desktop test reached 100 in everything but performance with it only getting to 97.
+
+![Lighthouse desktop test](assets/images/desktop.png)
+
+### **Mobile Testing**
+
+The Mobile test also didn't reach 100 on everything but the performance was the only thing stopping it as it was at 99.
+
+![Lighthouse mobile test](assets/images/mobile.png)
+
  
