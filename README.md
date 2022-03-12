@@ -115,3 +115,12 @@ The Mobile test also didn't reach 100 on everything but the performance was the 
 
 - No bugs currently detected
 
+## **Deployment**
+
+- I deployed the site to GitHub Pages. These are the steps I took to deploy it:
+
+  - In my GitHub repository, I navigated to the settings menu.
+  - I went down to the GitHub Pages section and clicked the link.
+  - In the source I selected the branch to Main Branch.
+  - Once selected I clicked save and the page refreshes deploying the page giving me a detailed display ribbon to indicate the finishing of deployment.
+
