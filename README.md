@@ -32,6 +32,28 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
   - The footer has social media links and text to follow the social media for updates in regards to the game.
   - This allows the user to suggest updates to the game and also see any changes that occur and any new feautures implemented.
 
+## **Website On Different Screens
+
+  - The game is accessible on all devices with only minor changes to the layout.
+
+- **Computer Screens above 1000pc**
+
+  - The layout for computer screens is the standard layout for the webpage. 
+
+![Rock Paper Scissors game on computer screens](assets/images/website.png)
+
+- **Ipad Screens**
+
+  - The layout for the ipad changes a small bit with the game area getting smaller in height and the buttons getting smaller to fit the screen size.
+
+  ![Rock Paper Scissors game on an ipad](assets/images/ipad.png)
+
+- **Mobile Screens**
+
+  - The layout doesn't have many noticeable differences from the ipad layout. The width and height of the game area are adjusted to fit the screens and the buttons are also made smaller.
+  
+  ![Rock Paper Scissors game on the samsung s8](assets/images/samsungs8.png)
+
   ## **Testing**
  
  ### **Website Functionality Testing**
@@ -45,6 +67,14 @@ The user chooses between 3 clickable buttons and gets responsive feedback below 
 
   - There are three buttons in total on my page: The Rock, Paper and Scissors buttons.
   - All buttons work as intended.
-  
+
     - The hover transition increases the scale of the buttons without issue.
     - Each button runs the correct function and provides the correct feedback, an example of this is when the player chooses rock and the computer chooses paper, the computer will win.
+
+- **Results Text Testing**
+  - The result text works without any issues.
+  - The text starts of with prompting the player to chose on of the buttons.
+  - The text then changes to the win, lose or it's a draw texts.
+  - The text displays the computers choice without a problem on all three results.
+
+ 
